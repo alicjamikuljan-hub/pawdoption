@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #492e2e;
+    color: #492e2e;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background-color: #492e2e;
+    color: #f2ead0;
+    padding: 1rem 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 7rem;
+    width: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-list a {
+    color: #f2ead0;
+    text-decoration: none;
+}
+
+.nav-list a.active {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #f2ead0;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h2 {
+    margin-bottom: 1rem;
+}
+
+.section {
+    padding: 3rem 1rem;
+}
+
+.about {
+    text-align: left;
+    background-color: #f2ead0;
+    padding: 4rem 0;
+    color: #492e2e;
+}
+
+.features {
+    background-color: #492e2e;
+    padding: 4rem 0;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #f2ead0;
+}
+
+.cards-grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background-color: #f2ead0;
+    color: #492e2e;
+    padding: 1.5rem;
+    border-radius: 0.7rem;
+    box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 0.5rem;
+    color: #492e2e;
+}
+
+.card img {
+    width: 100%;          
+    height: 180px;        
+    object-fit: cover;    
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background-color: #654040;
+    color: #f2ead0;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+
